@@ -1,0 +1,12 @@
+{% extends "shop/base.html" %}
+
+{% block title %}
+  Thank you!
+{% endblock %}
+
+{% block content %}
+  <div class="w3-center" style="max-width:1564px; margin-top:60px">
+  <h1>Thank you</h1>
+    <p>Your book checkout has been placed. Your pickup number is <strong>{{ order.id }}</strong>.</p>
+  </div>
+{% endblock %}
